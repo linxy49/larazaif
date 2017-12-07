@@ -1,0 +1,19 @@
+{
+    "name": "linxy49/larazaif",
+    "description": "zaif api for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "linxy49",
+        "email": "linxycoin@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linxy49\\LaraZaif\\": "src/Linxy49/LaraZaif/"
+        }
+    }
+}
